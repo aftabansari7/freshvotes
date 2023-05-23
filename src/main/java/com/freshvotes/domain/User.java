@@ -13,7 +13,7 @@ public class User {
     private String name;
 
 //    it is mandatory to create annotation for Id otherwise the JDBC will throw an error
-//    the Id should be an auto generated value and below is the annotation text which will create an incremented value by default. if left blank the snapshot will create a default value depending on its version.
+//    the id should be an auto generated value and below is the annotation text which will create an incremented value by default. if left blank the snapshot will create a default value depending on its version.
 @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 public long getId() {
     return id;
