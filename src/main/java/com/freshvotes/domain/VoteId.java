@@ -1,7 +1,6 @@
 package com.freshvotes.domain;
 
 import jakarta.persistence.Embeddable;
-import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 
 
