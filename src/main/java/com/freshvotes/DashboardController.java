@@ -15,6 +15,8 @@ public class DashboardController {
 	
 	@GetMapping("/user")
 	public ResponseEntity<String> normaluser(){
+		int a = 0;
+		float result = a/10;
 		return ResponseEntity.ok("I am a normal user");
 		
 	}
