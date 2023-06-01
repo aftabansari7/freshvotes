@@ -1,4 +1,4 @@
-package com.freshvotes;
+package com.naumansoftwares.freshvotes;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

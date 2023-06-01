@@ -1,4 +1,4 @@
-package com.freshvotes.domain;
+package com.naumansoftwares.freshvotes.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

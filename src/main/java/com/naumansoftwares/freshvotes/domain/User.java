@@ -1,4 +1,4 @@
-package com.freshvotes.domain;
+package com.naumansoftwares.freshvotes.domain;
 
 import jakarta.persistence.*;
 
@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 //the jakarta.persistence formerly known as java.persistence which keeps the program generic while the hibernate will make it tightly coupled.
 @Table(name="Users")
 public class User {
-    private long id;
+    private Long id;
     private String username;
     private String password;
     private String name;
@@ -15,11 +15,11 @@ public class User {
 //    it is mandatory to create annotation for Id otherwise the JDBC will throw an error
 //    the id should be an auto generated value and below is the annotation text which will create an incremented value by default. if left blank the snapshot will create a default value depending on its version.
 @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-public long getId() {
+public Long getId() {
     return id;
 }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
